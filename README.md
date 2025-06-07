@@ -27,9 +27,11 @@ PORT=5000
 HOST=127.0.0.1
 
 4. Gere o cliente Prisma:
+
 npm run prisma:generate
 
-5. Execute a migração inicial para criar a tabela de clientes (ou outras tabelas):
+6. Execute a migração inicial para criar a tabela de clientes:
+
 npm run prisma:migrate
 
 6. Inicie o servidor em modo desenvolvimento:
