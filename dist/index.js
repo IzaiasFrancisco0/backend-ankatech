@@ -5,9 +5,9 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 Object.defineProperty(exports, "__esModule", { value: true });
 const fastify_1 = __importDefault(require("fastify"));
 const cors_1 = __importDefault(require("@fastify/cors"));
-const clientes_1 = __importDefault(require("./src/routes/clientes"));
-const ativos_1 = __importDefault(require("./src/routes/ativos"));
-const alocacao_1 = __importDefault(require("./src/routes/alocacao"));
+const clientes_1 = __importDefault(require("./routes/clientes"));
+const ativos_1 = __importDefault(require("./routes/ativos"));
+const alocacao_1 = __importDefault(require("./routes/alocacao"));
 const dotenv_1 = __importDefault(require("dotenv"));
 dotenv_1.default.config();
 const fastify = (0, fastify_1.default)({
