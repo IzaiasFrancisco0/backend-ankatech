@@ -30,7 +30,7 @@ HOST=127.0.0.1
 
 npm run prisma:generate
 
-6. Execute a migração inicial para criar a tabela de clientes:
+5. Execute a migração inicial para criar a tabela de clientes:
 
 npm run prisma:migrate
 
