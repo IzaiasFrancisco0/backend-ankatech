@@ -13,7 +13,7 @@ API backend desenvolvida com Fastify, Prisma e TypeScript para gerenciar cliente
 ## Como usar
 
 1. Clone o repositório:
-git clone https://github.com/IzaiasFrancisco0/case-ankatech.git
+git clone https://github.com/IzaiasFrancisco0/backend-ankatech.git
 cd backend
 
 2. Instale as dependências:
